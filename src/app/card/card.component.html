@@ -2,7 +2,7 @@
   <div class="card" [ngClass]="title.color">
     <h2>{{ title.nameCard }}</h2>
     <p>{{ title.money | currency: 'BRL'}}</p>
-    <img class="image" src="money.png" alt="money" />
+    <img class="image" [src]="title.source" />
   </div>
 </div>
 <!-- <div class="card blue">

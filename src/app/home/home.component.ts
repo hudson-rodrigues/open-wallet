@@ -12,18 +12,20 @@ export class HomeComponent implements OnInit {
       nameCard: 'Revenue',
       money: 500,
       color: 'green',
+      source: '/assets/paper_money_96px.png'
 
     },
     {
       nameCard: 'Expense',
       money: 200,
-      color: 'red'
+      color: 'red',
+      source: '/assets/request_money_96px.png'
     },
     {
       nameCard: 'Card Credit',
       money: 100,
-      color: 'blue'
-
+      color: 'blue',
+      source: '/assets/mastercard_credit_card_96px.png'
     }
   ];
 
