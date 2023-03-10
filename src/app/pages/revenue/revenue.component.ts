@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RevenueComponent implements OnInit {
 
+  public data =
+    {
+      description: '',
+      value: 0,
+      date: ''
+    };
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onRegister() {
+    console.log(this.data);
   }
 
 }

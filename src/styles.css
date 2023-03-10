@@ -11,6 +11,10 @@ body {
   background-color: whitesmoke;
 }
 
+button {
+  margin: 5px;
+}
+
 .row {
   display: flex;
   justify-content: center;
@@ -143,4 +147,14 @@ body {
 .btn-outline-danger:hover{
   background-color: #d2322d;
   color: white;
+}
+
+/*input*/
+input[type=text],
+input[type=date],
+input[type=number] {
+  width: 80%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }

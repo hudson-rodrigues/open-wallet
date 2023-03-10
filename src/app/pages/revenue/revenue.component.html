@@ -1,4 +1,17 @@
-<p>revenue works!</p>
+<div class="row">
+  <input type="text" placeholder="Descrição" [(ngModel)]="data.description"/>
+</div>
+<div class="row">
+  <input type="date" name="data" id="data" [(ngModel)]="data.date">
+</div>
+<div class="row">
+  <input type="number" name="valor" id="valor" placeholder="Valor" [(ngModel)]="data.value">
+</div>
+<div class="row">
+  <button type="button" class="btn-primary" (click)="onRegister()">Registrar</button>
+</div>
+
 <div class="row">
   <button type="button" class="btn-warning" routerLink="/">Voltar</button>
 </div>
+
