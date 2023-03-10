@@ -1,0 +1,125 @@
+/*Modelo 1 botões normal*/
+.btn-primary {
+  background-color: #0088cc;
+  color: white;
+  padding: 5px 8px;
+  border: 1px solid #0088cc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .3s ease;
+}
+.btn-primary:hover{
+  background-color: #fff;
+  color: #0088cc;
+}
+
+.btn-sucess {
+  background-color: #47a447;
+  color: white;
+  padding: 5px 8px;
+  border: 1px solid #47a447;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .3s ease;
+}
+.btn-sucess:hover{
+  background-color: #fff;
+  color: #47a447;
+}
+
+.btn-warning {
+  background-color: #ed9c28;
+  color: white;
+  padding: 5px 8px;
+  border: 1px solid #ed9c28;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .3s ease;
+}
+
+.btn-warning:hover{
+  background-color: #fff;
+  color: #ed9c28;
+}
+
+.btn-danger {
+  background-color: #d2322d;
+  color: white;
+  padding: 5px 8px;
+  border: 1px solid #d2322d;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .3s ease;
+}
+
+.btn-danger:hover{
+  background-color: #fff;
+  color: #d2322d;
+}
+
+/**/
+.btn-outline-primary {
+  background-color: #fff;
+  color: #0088cc;
+
+  padding: 5px 8px;
+  border: 1px solid #0088cc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .3s ease;
+}
+.btn-outline-primary:hover{
+  background-color: #0088cc;
+  color: white;
+}
+
+.btn-outline-sucess {
+  background-color: #fff;
+  color: #47a447;
+  padding: 5px 8px;
+  border: 1px solid #47a447;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .3s ease;
+}
+.btn-outline-sucess:hover{
+  background-color: #47a447;
+  color: white;
+}
+.btn-outline-warning {
+  background-color: #fff;
+  color: #ed9c28;
+  padding: 5px 8px;
+  border: 1px solid #ed9c28;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .3s ease;
+}
+
+.btn-outline-warning:hover{
+  background-color: #ed9c28;
+  color: white;
+}
+
+.btn-outline-danger {
+  background-color: #fff;
+  color: #d2322d;
+  padding: 5px 8px;
+  border: 1px solid #d2322d;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all .3s ease;
+}
+
+.btn-outline-danger:hover{
+  background-color: #d2322d;
+  color: white;
+}

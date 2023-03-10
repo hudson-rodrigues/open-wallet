@@ -34,7 +34,10 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
 
+  btnAdicionar() {
+    console.log("btn adicionar");
   }
 
 }
